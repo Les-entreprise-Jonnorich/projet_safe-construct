@@ -128,8 +128,8 @@ body {
 .navbar{
     background: 
 linear-gradient(rgba(136, 132, 81, 0.6), 
-rgba(150, 109, 109, 0.6)),
-url(/assets/img/fragment_brique.jpg) 
+rgba(126, 125, 125, 0.6)),
+url(../img/mur_brique.png) 
 center/cover 
 no-repeat 
 fixed;
@@ -166,8 +166,8 @@ image{
     vertical-align: middle;
 }
 .navbar-toggler {
-    padding: 10px;
-    border: 2px solid #ee710b;
+    padding: 0.71rem;
+    border: 0.2 solid #ee710b;
     background: #eecbad;
 }
 .img-fluid {
@@ -240,12 +240,13 @@ span{
 }
 .header-div {
     height: 115vh;
-    background: linear-gradient(100deg, rgba(63, 57, 57, 0.6) 38%, rgba(0, 0, 0, 0.2) 75%), url(/assets/img/la\ team\ Row.jpg) center / cover no-repeat;
+    background: linear-gradient(100deg, rgba(63, 57, 57, 0.6) 38%, rgba(0, 0, 0, 0.2) 75%), url(../img/la\ team\ Row.jpg) center / cover no-repeat;
     padding: 1.5rem;
     letter-spacing: 0.5rem;
     line-height: 0.5rem;
     color: rgba(255, 255, 255, 0.8);
 }
+.d-flex{}
 .fw-bolder{
     height: 10vh;
 }
